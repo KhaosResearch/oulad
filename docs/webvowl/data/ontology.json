@@ -1,0 +1,1052 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "es", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://ontologies.khaos.uma.es/oulad" ],
+    "iri" : "http://ontologies.khaos.uma.es/oulad/",
+    "labels" : {
+      "undefined" : "OULAD"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/StudentVle",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StudentVle",
+      "en" : "Student Vle"
+    },
+    "comment" : {
+      "en" : "This class models the information about each student’s interactions with the materials in the VLE."
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/StudentRegistration",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StudentRegistration",
+      "en" : "Student Registration"
+    },
+    "comment" : {
+      "en" : "This class models the information about the time when the student registered for the module presentation."
+    },
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "22",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/Vle",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vle",
+      "en" : "Vle"
+    },
+    "comment" : {
+      "en" : "This class models the information about the available materials in the VLE. Typically these are html pages, pdf files, etc. Students have access to these materials online and their interactions with the materials are recorded."
+    },
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/Assessments",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Assessments",
+      "en" : "Assessments"
+    },
+    "comment" : {
+      "en" : "This class models the information about assessments in module-presentations. Usually, every presentation has a number of assessments followed by the final exam."
+    },
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/Courses",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Courses",
+      "en" : "Courses"
+    },
+    "comment" : {
+      "en" : "This class models all available modules and their presentations."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/StudentInfo",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StudentInfo",
+      "en" : "Student Info"
+    },
+    "comment" : {
+      "en" : "This class models the demographic information about the students together with their results."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/StudentAssessment",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StudentAssessment",
+      "en" : "Student Assessment"
+    },
+    "comment" : {
+      "en" : "This class models the results of students’ assessments. If the student does not submit the assessment, no result is recorded."
+    },
+    "id" : "1"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/score",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "score",
+      "en" : "score"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "The student’s score in this assessment. The range is from 0 to 100. The score lower than 40 is interpreted as Fail. The marks are in the range from 0 to 100."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/highest_education",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "highest_education",
+      "en" : "highest_education"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Highest student education level on entry to the module presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_info_has_course",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "student_info_has_course",
+      "es" : "student_info_has_course"
+    },
+    "domain" : "5",
+    "comment" : {
+      "es" : "An identification for a module and presentation on which the student is registered."
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/week_to",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "week_to",
+      "en" : "week_to"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Week until which the material is planned to be used."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_vle_has_vle",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "student_vle_has_vle",
+      "es" : "student_vle_has_vle"
+    },
+    "domain" : "3",
+    "comment" : {
+      "es" : "An identification for the VLE material."
+    },
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "student_assessment_has_assessment",
+      "es" : "The identification of the assessment."
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/date_submitted",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "date_submitted",
+      "en" : "date_submitted"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "The date of student submission."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/vle_has_course",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "vle_has_course",
+      "es" : "vle_has_course"
+    },
+    "domain" : "10",
+    "comment" : {
+      "es" : "An identification code for module and presentation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/is_banked",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "is_banked",
+      "en" : "is_banked"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A status flag indicating that the assessment result has been transferred from a previous presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "22",
+    "subproperty" : [ "23" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/disability",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "disability",
+      "en" : "disability"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Indicates whether the student has declared a disability."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/date_unregistration",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "date_unregistration",
+      "en" : "date_unregistration"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "Date of student unregistration from the module presentation. Students, who completed the course have this field empty. Students who unregistered have Withdrawal as the value of the final_result."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/id_assessment",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "id_assessment",
+      "en" : "id_assessment"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Identification number of the assessment."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/region",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "region",
+      "en" : "region"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "Identifies the geographic region, where the student lived while taking the module-presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/id_site",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "id_site",
+      "en" : "id_site"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "An identification number of the material."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/imd_band",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "imd_band",
+      "en" : "imd_band"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Specifies the Index of Multiple Depravation band of the place where the student lived during the module-presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/assessment_has_course",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "assessment_has_course",
+      "es" : "assessment_has_course"
+    },
+    "domain" : "14",
+    "comment" : {
+      "es" : "Identification code of the module and presentation, to which the assessment belongs."
+    },
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/weight",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "weight",
+      "en" : "weight"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Weight of the assessment in %. Typically, Exams are treated separately and have the weight 100%; the sum of all other assessments is 100%"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/gender",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "gender",
+      "en" : "gender"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The student’s gender."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_registration_has_course",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "student_registration_has_course",
+      "es" : "student_registration_has_course"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "25",
+    "comment" : {
+      "es" : "The identification code of the module presentation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/assessment_type",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "assessment_type",
+      "en" : "assessment_type"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Type of assessment. Three types of assessments exist: Tutor Marked Assessment (TMA), Computer Marked Assessment (CMA) and Final Exam (Exam)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/date",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "date"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Information about the final submission date of the assessment calculated as the number of days since the start of the module-presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "num_of_prev_attempts",
+      "en" : "num_of_prev_attempts"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The number times the student has attempted this module."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/final_result",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "final_result",
+      "en" : "final_result"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Student’s final result in the module-presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/date_registration",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "date_registration",
+      "en" : "date_registration"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "The date of student’s registration on the module presentation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "student_registration_has_student_info",
+      "es" : "student_registration_has_student_info"
+    },
+    "domain" : "25",
+    "comment" : {
+      "es" : "A identification for the student."
+    },
+    "attributes" : [ "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/date_student_vle",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "date_student_vle",
+      "en" : "date_student_vle"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "The date of student’s interaction with the material."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "student_vle_has_student_info",
+      "es" : "student_vle_has_student_info"
+    },
+    "domain" : "3",
+    "comment" : {
+      "es" : "A identification for the student info."
+    },
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/age_band",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "age_band",
+      "en" : "age_band"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Band of the student’s age."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/studied_credits",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "studied_credits",
+      "en" : "studied_credits"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The total number of credits for the modules the student is currently studying."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/code_presentation",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "code_presentation",
+      "en" : "code_presentation"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Code name of the presentation. It consists of the year and “B” for the presentation starting in February and “J” for the presentation starting in October."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/length",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "length",
+      "en" : "length"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Length of the module-presentation in days."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/id_student",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "id_student",
+      "en" : "id_student"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "A unique identification number for the student."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/sum_click",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "sum_click",
+      "en" : "sum_click"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "The number of times a student interacts with the material in that day."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/activity_type",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "activity_type",
+      "en" : "activity_type"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "The role associated with the module material."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/student_assessment_has_student",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "student_assessment_has_student",
+      "es" : "student_assessment_has_student"
+    },
+    "domain" : "1",
+    "comment" : {
+      "es" : "A identification for the student."
+    },
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/week_from",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "week_from",
+      "en" : "week_from"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "The week from which the material is planned to be used."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://ontologies.khaos.uma.es/oulad/code_module",
+    "baseIri" : "http://ontologies.khaos.uma.es/oulad",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "code_module",
+      "en" : "code_module"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Code name of the module, which serves as the identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  } ]
+}

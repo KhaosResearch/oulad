@@ -1,0 +1,323 @@
+<http://ontologies.khaos.uma.es/oulad/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ontologies.khaos.uma.es/oulad/> <http://www.w3.org/2000/01/rdf-schema#label> "OULAD" .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://ontologies.khaos.uma.es/oulad/assessment_has_course
+<http://ontologies.khaos.uma.es/oulad/assessment_has_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/assessment_has_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Assessments> .
+<http://ontologies.khaos.uma.es/oulad/assessment_has_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/assessment_has_course> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification code of the module and presentation, to which the assessment belongs."@es .
+<http://ontologies.khaos.uma.es/oulad/assessment_has_course> <http://www.w3.org/2000/01/rdf-schema#label> "assessment_has_course"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentAssessment> .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/Assessments> .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment> <http://www.w3.org/2000/01/rdf-schema#label> "The identification of the assessment."@es .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_assessment> <http://www.w3.org/2000/01/rdf-schema#label> "student_assessment_has_assessment"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_assessment_has_student
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_student> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentAssessment> .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_student> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_student> <http://www.w3.org/2000/01/rdf-schema#comment> "A identification for the student."@es .
+<http://ontologies.khaos.uma.es/oulad/student_assessment_has_student> <http://www.w3.org/2000/01/rdf-schema#label> "student_assessment_has_student"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_info_has_course
+<http://ontologies.khaos.uma.es/oulad/student_info_has_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_info_has_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/student_info_has_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/student_info_has_course> <http://www.w3.org/2000/01/rdf-schema#comment> "An identification for a module and presentation on which the student is registered."@es .
+<http://ontologies.khaos.uma.es/oulad/student_info_has_course> <http://www.w3.org/2000/01/rdf-schema#label> "student_info_has_course"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_registration_has_course
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_course> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentRegistration> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_course> <http://www.w3.org/2000/01/rdf-schema#comment> "The identification code of the module presentation."@es .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_course> <http://www.w3.org/2000/01/rdf-schema#label> "student_registration_has_course"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentRegistration> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info> <http://www.w3.org/2000/01/rdf-schema#comment> "A identification for the student."@es .
+<http://ontologies.khaos.uma.es/oulad/student_registration_has_student_info> <http://www.w3.org/2000/01/rdf-schema#label> "student_registration_has_student_info"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentVle> .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info> <http://www.w3.org/2000/01/rdf-schema#comment> "A identification for the student info."@es .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_student_info> <http://www.w3.org/2000/01/rdf-schema#label> "student_vle_has_student_info"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/student_vle_has_vle
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_vle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_vle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentVle> .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_vle> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/Vle> .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_vle> <http://www.w3.org/2000/01/rdf-schema#comment> "An identification for the VLE material."@es .
+<http://ontologies.khaos.uma.es/oulad/student_vle_has_vle> <http://www.w3.org/2000/01/rdf-schema#label> "student_vle_has_vle"@es .
+# 
+# http://ontologies.khaos.uma.es/oulad/vle_has_course
+<http://ontologies.khaos.uma.es/oulad/vle_has_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.khaos.uma.es/oulad/vle_has_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Vle> .
+<http://ontologies.khaos.uma.es/oulad/vle_has_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/vle_has_course> <http://www.w3.org/2000/01/rdf-schema#comment> "An identification code for module and presentation."@es .
+<http://ontologies.khaos.uma.es/oulad/vle_has_course> <http://www.w3.org/2000/01/rdf-schema#label> "vle_has_course"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://ontologies.khaos.uma.es/oulad/activity_type
+<http://ontologies.khaos.uma.es/oulad/activity_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/activity_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Vle> .
+<http://ontologies.khaos.uma.es/oulad/activity_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/activity_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The role associated with the module material."@en .
+<http://ontologies.khaos.uma.es/oulad/activity_type> <http://www.w3.org/2000/01/rdf-schema#label> "activity_type"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/age_band
+<http://ontologies.khaos.uma.es/oulad/age_band> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/age_band> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/age_band> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/age_band> <http://www.w3.org/2000/01/rdf-schema#comment> "Band of the student’s age."@en .
+<http://ontologies.khaos.uma.es/oulad/age_band> <http://www.w3.org/2000/01/rdf-schema#label> "age_band"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/assessment_type
+<http://ontologies.khaos.uma.es/oulad/assessment_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/assessment_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Assessments> .
+<http://ontologies.khaos.uma.es/oulad/assessment_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/assessment_type> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of assessment. Three types of assessments exist: Tutor Marked Assessment (TMA), Computer Marked Assessment (CMA) and Final Exam (Exam)."@en .
+<http://ontologies.khaos.uma.es/oulad/assessment_type> <http://www.w3.org/2000/01/rdf-schema#label> "assessment_type"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/code_module
+<http://ontologies.khaos.uma.es/oulad/code_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/code_module> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/code_module> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/code_module> <http://www.w3.org/2000/01/rdf-schema#comment> "Code name of the module, which serves as the identifier."@en .
+<http://ontologies.khaos.uma.es/oulad/code_module> <http://www.w3.org/2000/01/rdf-schema#label> "code_module"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/code_presentation
+<http://ontologies.khaos.uma.es/oulad/code_presentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/code_presentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/code_presentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/code_presentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Code name of the presentation. It consists of the year and “B” for the presentation starting in February and “J” for the presentation starting in October."@en .
+<http://ontologies.khaos.uma.es/oulad/code_presentation> <http://www.w3.org/2000/01/rdf-schema#label> "code_presentation"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/date
+<http://ontologies.khaos.uma.es/oulad/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Assessments> .
+<http://ontologies.khaos.uma.es/oulad/date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ontologies.khaos.uma.es/oulad/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about the final submission date of the assessment calculated as the number of days since the start of the module-presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/date> <http://www.w3.org/2000/01/rdf-schema#label> "date"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/date_registration
+<http://ontologies.khaos.uma.es/oulad/date_registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/date_registration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentRegistration> .
+<http://ontologies.khaos.uma.es/oulad/date_registration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ontologies.khaos.uma.es/oulad/date_registration> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of student’s registration on the module presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/date_registration> <http://www.w3.org/2000/01/rdf-schema#label> "date_registration"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/date_student_vle
+<http://ontologies.khaos.uma.es/oulad/date_student_vle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/date_student_vle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentVle> .
+<http://ontologies.khaos.uma.es/oulad/date_student_vle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ontologies.khaos.uma.es/oulad/date_student_vle> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of student’s interaction with the material."@en .
+<http://ontologies.khaos.uma.es/oulad/date_student_vle> <http://www.w3.org/2000/01/rdf-schema#label> "date_student_vle"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/date_submitted
+<http://ontologies.khaos.uma.es/oulad/date_submitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/date_submitted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentAssessment> .
+<http://ontologies.khaos.uma.es/oulad/date_submitted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ontologies.khaos.uma.es/oulad/date_submitted> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of student submission."@en .
+<http://ontologies.khaos.uma.es/oulad/date_submitted> <http://www.w3.org/2000/01/rdf-schema#label> "date_submitted"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/date_unregistration
+<http://ontologies.khaos.uma.es/oulad/date_unregistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/date_unregistration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentRegistration> .
+<http://ontologies.khaos.uma.es/oulad/date_unregistration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ontologies.khaos.uma.es/oulad/date_unregistration> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of student unregistration from the module presentation. Students, who completed the course have this field empty. Students who unregistered have Withdrawal as the value of the final_result."@en .
+<http://ontologies.khaos.uma.es/oulad/date_unregistration> <http://www.w3.org/2000/01/rdf-schema#label> "date_unregistration"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/disability
+<http://ontologies.khaos.uma.es/oulad/disability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/disability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/disability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/disability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the student has declared a disability."@en .
+<http://ontologies.khaos.uma.es/oulad/disability> <http://www.w3.org/2000/01/rdf-schema#label> "disability"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/final_result
+<http://ontologies.khaos.uma.es/oulad/final_result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/final_result> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/final_result> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/final_result> <http://www.w3.org/2000/01/rdf-schema#comment> "Student’s final result in the module-presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/final_result> <http://www.w3.org/2000/01/rdf-schema#label> "final_result"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/gender
+<http://ontologies.khaos.uma.es/oulad/gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/gender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/gender> <http://www.w3.org/2000/01/rdf-schema#comment> "The student’s gender."@en .
+<http://ontologies.khaos.uma.es/oulad/gender> <http://www.w3.org/2000/01/rdf-schema#label> "gender"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/highest_education
+<http://ontologies.khaos.uma.es/oulad/highest_education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/highest_education> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/highest_education> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/highest_education> <http://www.w3.org/2000/01/rdf-schema#comment> "Highest student education level on entry to the module presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/highest_education> <http://www.w3.org/2000/01/rdf-schema#label> "highest_education"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/id_assessment
+<http://ontologies.khaos.uma.es/oulad/id_assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/id_assessment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Assessments> .
+<http://ontologies.khaos.uma.es/oulad/id_assessment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/id_assessment> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification number of the assessment."@en .
+<http://ontologies.khaos.uma.es/oulad/id_assessment> <http://www.w3.org/2000/01/rdf-schema#label> "id_assessment"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/id_site
+<http://ontologies.khaos.uma.es/oulad/id_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/id_site> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Vle> .
+<http://ontologies.khaos.uma.es/oulad/id_site> <http://www.w3.org/2000/01/rdf-schema#comment> "An identification number of the material."@en .
+<http://ontologies.khaos.uma.es/oulad/id_site> <http://www.w3.org/2000/01/rdf-schema#label> "id_site"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/id_student
+<http://ontologies.khaos.uma.es/oulad/id_student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/id_student> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/id_student> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/id_student> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique identification number for the student."@en .
+<http://ontologies.khaos.uma.es/oulad/id_student> <http://www.w3.org/2000/01/rdf-schema#label> "id_student"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/imd_band
+<http://ontologies.khaos.uma.es/oulad/imd_band> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/imd_band> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/imd_band> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/imd_band> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the Index of Multiple Depravation band of the place where the student lived during the module-presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/imd_band> <http://www.w3.org/2000/01/rdf-schema#label> "imd_band"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/is_banked
+<http://ontologies.khaos.uma.es/oulad/is_banked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/is_banked> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentAssessment> .
+<http://ontologies.khaos.uma.es/oulad/is_banked> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/is_banked> <http://www.w3.org/2000/01/rdf-schema#comment> "A status flag indicating that the assessment result has been transferred from a previous presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/is_banked> <http://www.w3.org/2000/01/rdf-schema#label> "is_banked"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/length
+<http://ontologies.khaos.uma.es/oulad/length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/length> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Courses> .
+<http://ontologies.khaos.uma.es/oulad/length> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/length> <http://www.w3.org/2000/01/rdf-schema#comment> "Length of the module-presentation in days."@en .
+<http://ontologies.khaos.uma.es/oulad/length> <http://www.w3.org/2000/01/rdf-schema#label> "length"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts
+<http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts> <http://www.w3.org/2000/01/rdf-schema#comment> "The number times the student has attempted this module."@en .
+<http://ontologies.khaos.uma.es/oulad/num_of_prev_attempts> <http://www.w3.org/2000/01/rdf-schema#label> "num_of_prev_attempts"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/region
+<http://ontologies.khaos.uma.es/oulad/region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/region> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontologies.khaos.uma.es/oulad/region> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the geographic region, where the student lived while taking the module-presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/region> <http://www.w3.org/2000/01/rdf-schema#label> "region"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/score
+<http://ontologies.khaos.uma.es/oulad/score> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/score> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentAssessment> .
+<http://ontologies.khaos.uma.es/oulad/score> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://ontologies.khaos.uma.es/oulad/score> <http://www.w3.org/2000/01/rdf-schema#comment> "The student’s score in this assessment. The range is from 0 to 100. The score lower than 40 is interpreted as Fail. The marks are in the range from 0 to 100."@en .
+<http://ontologies.khaos.uma.es/oulad/score> <http://www.w3.org/2000/01/rdf-schema#label> "score"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/studied_credits
+<http://ontologies.khaos.uma.es/oulad/studied_credits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/studied_credits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentInfo> .
+<http://ontologies.khaos.uma.es/oulad/studied_credits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/studied_credits> <http://www.w3.org/2000/01/rdf-schema#comment> "The total number of credits for the modules the student is currently studying."@en .
+<http://ontologies.khaos.uma.es/oulad/studied_credits> <http://www.w3.org/2000/01/rdf-schema#label> "studied_credits"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/sum_click
+<http://ontologies.khaos.uma.es/oulad/sum_click> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/sum_click> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/StudentVle> .
+<http://ontologies.khaos.uma.es/oulad/sum_click> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/sum_click> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of times a student interacts with the material in that day."@en .
+<http://ontologies.khaos.uma.es/oulad/sum_click> <http://www.w3.org/2000/01/rdf-schema#label> "sum_click"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/week_from
+<http://ontologies.khaos.uma.es/oulad/week_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/week_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Vle> .
+<http://ontologies.khaos.uma.es/oulad/week_from> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/week_from> <http://www.w3.org/2000/01/rdf-schema#comment> "The week from which the material is planned to be used."@en .
+<http://ontologies.khaos.uma.es/oulad/week_from> <http://www.w3.org/2000/01/rdf-schema#label> "week_from"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/week_to
+<http://ontologies.khaos.uma.es/oulad/week_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/week_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Vle> .
+<http://ontologies.khaos.uma.es/oulad/week_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/week_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Week until which the material is planned to be used."@en .
+<http://ontologies.khaos.uma.es/oulad/week_to> <http://www.w3.org/2000/01/rdf-schema#label> "week_to"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/weight
+<http://ontologies.khaos.uma.es/oulad/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontologies.khaos.uma.es/oulad/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.khaos.uma.es/oulad/Assessments> .
+<http://ontologies.khaos.uma.es/oulad/weight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontologies.khaos.uma.es/oulad/weight> <http://www.w3.org/2000/01/rdf-schema#comment> "Weight of the assessment in %. Typically, Exams are treated separately and have the weight 100%; the sum of all other assessments is 100%"@en .
+<http://ontologies.khaos.uma.es/oulad/weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://ontologies.khaos.uma.es/oulad/Assessments
+<http://ontologies.khaos.uma.es/oulad/Assessments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/Assessments> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models the information about assessments in module-presentations. Usually, every presentation has a number of assessments followed by the final exam."@en .
+<http://ontologies.khaos.uma.es/oulad/Assessments> <http://www.w3.org/2000/01/rdf-schema#label> "Assessments"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/Courses
+<http://ontologies.khaos.uma.es/oulad/Courses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/Courses> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models all available modules and their presentations."@en .
+<http://ontologies.khaos.uma.es/oulad/Courses> <http://www.w3.org/2000/01/rdf-schema#label> "Courses"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/StudentAssessment
+<http://ontologies.khaos.uma.es/oulad/StudentAssessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/StudentAssessment> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models the results of students’ assessments. If the student does not submit the assessment, no result is recorded."@en .
+<http://ontologies.khaos.uma.es/oulad/StudentAssessment> <http://www.w3.org/2000/01/rdf-schema#label> "Student Assessment"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/StudentInfo
+<http://ontologies.khaos.uma.es/oulad/StudentInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/StudentInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models the demographic information about the students together with their results."@en .
+<http://ontologies.khaos.uma.es/oulad/StudentInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Student Info"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/StudentRegistration
+<http://ontologies.khaos.uma.es/oulad/StudentRegistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/StudentRegistration> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models the information about the time when the student registered for the module presentation."@en .
+<http://ontologies.khaos.uma.es/oulad/StudentRegistration> <http://www.w3.org/2000/01/rdf-schema#label> "Student Registration"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/StudentVle
+<http://ontologies.khaos.uma.es/oulad/StudentVle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/StudentVle> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models the information about each student’s interactions with the materials in the VLE."@en .
+<http://ontologies.khaos.uma.es/oulad/StudentVle> <http://www.w3.org/2000/01/rdf-schema#label> "Student Vle"@en .
+# 
+# http://ontologies.khaos.uma.es/oulad/Vle
+<http://ontologies.khaos.uma.es/oulad/Vle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.khaos.uma.es/oulad/Vle> <http://www.w3.org/2000/01/rdf-schema#comment> "This class models the information about the available materials in the VLE. Typically these are html pages, pdf files, etc. Students have access to these materials online and their interactions with the materials are recorded."@en .
+<http://ontologies.khaos.uma.es/oulad/Vle> <http://www.w3.org/2000/01/rdf-schema#label> "Vle"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
